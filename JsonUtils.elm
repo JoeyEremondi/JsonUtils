@@ -5,6 +5,7 @@ Primarily intended working with values made or to be read by
 Haskell's Aeson library.
 Also contains some type definitions which act like ToJson
 and FromJson typeclasses.
+Note that there is an unenforced dependency on maxsnew/Error.
 -}
 
 import Json
