@@ -6,6 +6,17 @@ Haskell's Aeson library.
 Also contains some type definitions which act like ToJson
 and FromJson typeclasses.
 Note that there is an unenforced dependency on maxsnew/Error.
+
+# Dict classes
+@docs ToJson, FromJson
+
+# ToJson and FromJson instances
+@docs listToJson, listFromJson, maybeToJson, maybeFromJson,
+intToJson, intFromJson, stringToJson, stringFromJson,
+boolToJson, boolFromJson, floatToJson, floatFromJson, dictToJson, dictFromJson
+
+# Helper functions
+@docs packContents, unpackContents, getTag, varNamed
 -}
 
 import Json
